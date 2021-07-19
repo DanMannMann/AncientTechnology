@@ -296,11 +296,11 @@ namespace Autocrafter.RecipeParser
             if (ResultItem.Contains("firework_rocket"))
             {
                 var flight = Slots.Count(x => x.Used) - 1;
-                return $"execute as @s at @s if entity @s[tag=!recipe_set] if block ~ ~ ~ minecraft:dropper{{Items:[{{Count: {ResultCount}b, Slot:4b,id:'{ResultItem}',tag:{{Fireworks:{{Flight:{flight}}}}}}}]}} run function ancient_technology:crafting_automaton/recipes/{RecipeFamily}/{RecipeGroup}/{RecipeSetterFileName}";
+                return $"execute as @s at @s if entity @s[tag=!recipe_set] if block ~ ~ ~ minecraft:dropper{{Items:[{{Count: {ResultCount}b, Slot:4b,id:'{ResultItem}',tag:{{Fireworks:{{Flight:{flight}}}}}}}]}} run function ancient_technology:ancient_automaton/recipes/{RecipeFamily}/{RecipeGroup}/{RecipeSetterFileName}";
             }
             else
             {
-                return $"execute as @s at @s if entity @s[tag=!recipe_set] if block ~ ~ ~ minecraft:dropper{{Items:[{{Count: {ResultCount}b, Slot:4b,id:'{ResultItem}'}}]}} run function ancient_technology:crafting_automaton/recipes/{RecipeFamily}/{RecipeGroup}/{RecipeSetterFileName}";
+                return $"execute as @s at @s if entity @s[tag=!recipe_set] if block ~ ~ ~ minecraft:dropper{{Items:[{{Count: {ResultCount}b, Slot:4b,id:'{ResultItem}'}}]}} run function ancient_technology:ancient_automaton/recipes/{RecipeFamily}/{RecipeGroup}/{RecipeSetterFileName}";
             }
         }
 
@@ -318,7 +318,7 @@ namespace Autocrafter.RecipeParser
         public (string name, string body) GetRecipeSetter()
           => ($"{RecipeName}_setter", $@"
 # mark the entity as set up
-data merge entity @s {{Tags:['recipe_set', '{RecipeFamily}', '{RecipeGroup}', '{RecipeName}', 'crafting_automaton', 'placed', 'installed_crafting']}}
+data merge entity @s {{Tags:['recipe_set', '{RecipeFamily}', '{RecipeGroup}', '{RecipeName}', 'ancient_automaton', 'placed', 'installed_crafting']}}
 
 # set the recipe shape
 scoreboard players set @s autoc_slot1_tgt {(Slot1.Used ? 1 : -1)}
@@ -331,7 +331,7 @@ scoreboard players set @s autoc_slot7_tgt {(Slot7.Used ? 1 : -1)}
 scoreboard players set @s autoc_slot8_tgt {(Slot8.Used ? 1 : -1)}
 scoreboard players set @s autoc_slot9_tgt {(Slot9.Used ? 1 : -1)}
 
-execute as @s at @s run function ancient_technology:crafting_automaton/set_blockers
+execute as @s at @s run function ancient_technology:ancient_automaton/set_blockers
 
 # put the ingredient slots in
 {(Slot1.Used ? $"execute as @s at @s run data modify block ~-1 ~ ~-1 Items[4] set value {{id:'{Slot1.PrimaryItem}',Slot:4b,Count:1b}}" : "# slot 1 not used")}
