@@ -3,3 +3,4 @@ execute as @s at @s if data block ~ ~ ~ Items[{Slot: 4b, id: "minecraft:white_dy
 execute as @s at @s if data block ~ ~ ~ Items[{Slot: 4b, id: "minecraft:white_bed"}] run function ancient_technology:chromatron/north/result/red_bed
 execute as @s at @s if data block ~ ~ ~ Items[{Slot: 4b, id: "minecraft:candle"}] run function ancient_technology:chromatron/north/result/red_candle
 execute as @s at @s if data block ~ ~ ~ Items[{Slot: 4b, id: "minecraft:white_wool"}] run function ancient_technology:chromatron/north/result/red_wool
+execute as @s at @s if data block ~ ~ ~ Items[{Slot: 4b, id: "minecraft:blue_dye"}] run function ancient_technology:chromatron/north/result/purple_dye
