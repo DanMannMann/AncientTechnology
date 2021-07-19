@@ -1,0 +1,19 @@
+{
+ "parent": "item/generated",
+ "textures": {
+  "layer0": "item/glow_item_frame"
+ },
+
+ "overrides": [
+  { "predicate": {"custom_model_data": 80080}, "model": "item/ancient_forge"},
+  { "predicate": {"custom_model_data": 80085}, "model": "item/ancient_automaton"},
+  { "predicate": {"custom_model_data": 80086}, "model": "item/crafting_mechanism_red"},
+  { "predicate": {"custom_model_data": 80087}, "model": "item/crafting_mechanism_blue"},
+  { "predicate": {"custom_model_data": 80088}, "model": "item/miyagitron"},
+  { "predicate": {"custom_model_data": 80089}, "model": "item/chromatron"},
+  { "predicate": {"custom_model_data": 80090}, "model": "item/sender_chest"},
+  { "predicate": {"custom_model_data": 80091}, "model": "item/sender_chest_open"},
+  { "predicate": {"custom_model_data": 80095}, "model": "item/ancient_anthology"}
+
+ ]
+}

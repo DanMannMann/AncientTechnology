@@ -1,0 +1,16 @@
+{
+ "parent": "item/generated",
+ "textures": {
+  "layer0": "item/stick"
+ },
+
+ "overrides": [
+    { "predicate": {"custom_model_data": 90083}, "model": "item/sender_eye"},
+    { "predicate": {"custom_model_data": 90084}, "model": "item/render_eye"},
+  { "predicate": {"custom_model_data": 90085}, "model": "item/sender_eye"},
+  { "predicate": {"custom_model_data": 90086}, "model": "item/render_eye"}
+
+ ]
+
+ 
+}

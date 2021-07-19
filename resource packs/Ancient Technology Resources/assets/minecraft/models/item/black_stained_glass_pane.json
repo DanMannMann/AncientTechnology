@@ -1,0 +1,13 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "block/black_stained_glass"
+	},
+	"overrides": [
+		{"predicate": {"custom_model_data":10001}, "model": "item/blank"},
+		{"predicate": {"custom_model_data":10002}, "model": "item/cover"},
+		{"predicate": {"custom_model_data":10003}, "model": "item/up_arrow_head"},
+		{"predicate": {"custom_model_data":10004}, "model": "item/down_arrow_head"},
+		{"predicate": {"custom_model_data":10005}, "model": "item/empty"}
+	]
+}

@@ -1,0 +1,15 @@
+execute as @s at @s if entity @s[tag=rcp_16] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:andesite_stairs", Count: 4b}}
+execute as @s at @s if entity @s[tag=rcp_60] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:brick_slab", Count: 6b}}
+execute as @s at @s if entity @s[tag=rcp_104] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:crafting_table", Count: 1b}}
+execute as @s at @s if entity @s[tag=rcp_148] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:deepslate_brick_wall", Count: 6b}}
+execute as @s at @s if entity @s[tag=rcp_192] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:fletching_table", Count: 1b}}
+execute as @s at @s if entity @s[tag=rcp_236] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:hopper", Count: 1b}}
+execute as @s at @s if entity @s[tag=rcp_280] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:light_blue_banner", Count: 1b}}
+execute as @s at @s if entity @s[tag=rcp_324] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:nether_bricks", Count: 1b}}
+execute as @s at @s if entity @s[tag=rcp_368] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:polished_blackstone_button", Count: 1b}}
+execute as @s at @s if entity @s[tag=rcp_412] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:raw_iron", Count: 9b}}
+execute as @s at @s if entity @s[tag=rcp_456] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:soul_lantern", Count: 1b}}
+execute as @s at @s if entity @s[tag=rcp_500] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:trapped_chest", Count: 1b}}
+execute as @s at @s if entity @s[tag=rcp_544] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:yellow_banner", Count: 1b}}
+execute as @s at @s if entity @s[tag=rcp_588] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:green_stained_glass_pane", Count: 8b}}
+execute as @s at @s if entity @s[tag=rcp_632] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:sugar", Count: 3b}}

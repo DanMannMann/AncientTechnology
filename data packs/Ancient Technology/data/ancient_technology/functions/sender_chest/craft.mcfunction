@@ -1,0 +1,1 @@
+data merge block ~ ~ ~ {Items:[{id: "minecraft:glow_item_frame", Count: 1b, Slot: 4b, tag:{EntityTag:{Item:{id:"minecraft:glow_item_frame", Count: 1b, tag:{CustomModelData:80090}}, Silent: 1b, Invisible: 1b, Invulnerable: 1b, Tags:["sender_chest"], Fixed: 1b}, CustomModelData: 80090, display: {Name: '{"text":"Sender Chest"}'}}}]}

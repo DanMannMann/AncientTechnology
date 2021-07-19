@@ -1,0 +1,15 @@
+execute as @s at @s if entity @s[tag=rcp_3] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:acacia_fence", Count: 3b}}
+execute as @s at @s if entity @s[tag=rcp_47] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:blue_banner", Count: 1b}}
+execute as @s at @s if entity @s[tag=rcp_91] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:coarse_dirt", Count: 4b}}
+execute as @s at @s if entity @s[tag=rcp_135] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:dark_oak_planks", Count: 4b}}
+execute as @s at @s if entity @s[tag=rcp_179] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:end_rod", Count: 4b}}
+execute as @s at @s if entity @s[tag=rcp_223] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:gray_stained_glass", Count: 8b}}
+execute as @s at @s if entity @s[tag=rcp_267] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:ladder", Count: 3b}}
+execute as @s at @s if entity @s[tag=rcp_311] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:mojang_banner_pattern", Count: 1b}}
+execute as @s at @s if entity @s[tag=rcp_355] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:pink_concrete_powder", Count: 8b}}
+execute as @s at @s if entity @s[tag=rcp_399] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:purpur_pillar", Count: 1b}}
+execute as @s at @s if entity @s[tag=rcp_443] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:slime_ball", Count: 9b}}
+execute as @s at @s if entity @s[tag=rcp_487] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:stripped_acacia_wood", Count: 3b}}
+execute as @s at @s if entity @s[tag=rcp_531] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:white_banner", Count: 1b}}
+execute as @s at @s if entity @s[tag=rcp_575] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:cyan_carpet", Count: 3b}}
+execute as @s at @s if entity @s[tag=rcp_619] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:pink_stained_glass_pane", Count: 16b}}

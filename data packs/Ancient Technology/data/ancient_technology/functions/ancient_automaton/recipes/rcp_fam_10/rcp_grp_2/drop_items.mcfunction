@@ -1,0 +1,14 @@
+execute as @s at @s if entity @s[tag=rcp_42] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:blackstone_slab", Count: 6b}}
+execute as @s at @s if entity @s[tag=rcp_86] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:chiseled_stone_bricks", Count: 1b}}
+execute as @s at @s if entity @s[tag=rcp_130] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:dark_oak_boat", Count: 1b}}
+execute as @s at @s if entity @s[tag=rcp_174] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:dropper", Count: 1b}}
+execute as @s at @s if entity @s[tag=rcp_218] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:granite_stairs", Count: 4b}}
+execute as @s at @s if entity @s[tag=rcp_262] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:jungle_sign", Count: 3b}}
+execute as @s at @s if entity @s[tag=rcp_306] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:magma_cream", Count: 1b}}
+execute as @s at @s if entity @s[tag=rcp_350] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:packed_ice", Count: 1b}}
+execute as @s at @s if entity @s[tag=rcp_394] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:purple_bed", Count: 1b}}
+execute as @s at @s if entity @s[tag=rcp_438] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:sea_lantern", Count: 1b}}
+execute as @s at @s if entity @s[tag=rcp_482] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:stone_shovel", Count: 1b}}
+execute as @s at @s if entity @s[tag=rcp_526] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:waxed_weathered_cut_copper_stairs", Count: 4b}}
+execute as @s at @s if entity @s[tag=rcp_570] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:bone_meal", Count: 9b}}
+execute as @s at @s if entity @s[tag=rcp_614] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:orange_stained_glass_pane", Count: 8b}}

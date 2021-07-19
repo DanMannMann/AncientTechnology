@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "LNL",
+      "RCR",
+      "LIL"
+    ],
+    "key": {
+      "L": {
+        "item": "minecraft:lapis_block"
+      },
+      "N": {
+        "item": "minecraft:netherite_ingot"
+      },
+      "R": {
+        "item": "minecraft:redstone_block"
+      },
+      "C": {
+        "item": "minecraft:crafting_table"
+      },
+      "I": {
+        "item": "minecraft:iron_block"
+      }
+    },
+    "result": {
+      "item": "minecraft:knowledge_book",
+      "count": 1
+    }
+  }

@@ -1,0 +1,16 @@
+execute as @s at @s if data block ~ ~ ~1 Items[{Slot: 4b, id: "minecraft:black_dye"}] run function ancient_technology:chromatron/south/check_item_black
+execute as @s at @s if data block ~ ~ ~1 Items[{Slot: 4b, id: "minecraft:blue_dye"}] run function ancient_technology:chromatron/south/check_item_blue
+execute as @s at @s if data block ~ ~ ~1 Items[{Slot: 4b, id: "minecraft:brown_dye"}] run function ancient_technology:chromatron/south/check_item_brown
+execute as @s at @s if data block ~ ~ ~1 Items[{Slot: 4b, id: "minecraft:cyan_dye"}] run function ancient_technology:chromatron/south/check_item_cyan
+execute as @s at @s if data block ~ ~ ~1 Items[{Slot: 4b, id: "minecraft:gray_dye"}] run function ancient_technology:chromatron/south/check_item_gray
+execute as @s at @s if data block ~ ~ ~1 Items[{Slot: 4b, id: "minecraft:green_dye"}] run function ancient_technology:chromatron/south/check_item_green
+execute as @s at @s if data block ~ ~ ~1 Items[{Slot: 4b, id: "minecraft:light_blue_dye"}] run function ancient_technology:chromatron/south/check_item_light_blue
+execute as @s at @s if data block ~ ~ ~1 Items[{Slot: 4b, id: "minecraft:light_gray_dye"}] run function ancient_technology:chromatron/south/check_item_light_gray
+execute as @s at @s if data block ~ ~ ~1 Items[{Slot: 4b, id: "minecraft:lime_dye"}] run function ancient_technology:chromatron/south/check_item_lime
+execute as @s at @s if data block ~ ~ ~1 Items[{Slot: 4b, id: "minecraft:magenta_dye"}] run function ancient_technology:chromatron/south/check_item_magenta
+execute as @s at @s if data block ~ ~ ~1 Items[{Slot: 4b, id: "minecraft:purple_dye"}] run function ancient_technology:chromatron/south/check_item_purple
+execute as @s at @s if data block ~ ~ ~1 Items[{Slot: 4b, id: "minecraft:orange_dye"}] run function ancient_technology:chromatron/south/check_item_orange
+execute as @s at @s if data block ~ ~ ~1 Items[{Slot: 4b, id: "minecraft:red_dye"}] run function ancient_technology:chromatron/south/check_item_red
+execute as @s at @s if data block ~ ~ ~1 Items[{Slot: 4b, id: "minecraft:pink_dye"}] run function ancient_technology:chromatron/south/check_item_pink
+execute as @s at @s if data block ~ ~ ~1 Items[{Slot: 4b, id: "minecraft:white_dye"}] run function ancient_technology:chromatron/south/check_item_white
+execute as @s at @s if data block ~ ~ ~1 Items[{Slot: 4b, id: "minecraft:yellow_dye"}] run function ancient_technology:chromatron/south/check_item_yellow

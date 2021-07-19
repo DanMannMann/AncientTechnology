@@ -1,0 +1,43 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:stick",
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "text": "Eye of Destination"
+                            },
+                            "entity": "this"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [{
+                                "score": {
+                                    "objective": "sender_key",
+                                    "name": "SenderChest"
+                                }
+                            }],
+                            "entity": "this"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomModelData:90086}",
+                            "entity": "this"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{key_type:\"rx\"}",
+                            "entity": "this"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

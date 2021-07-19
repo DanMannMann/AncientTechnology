@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:glow_item_frame, tag=ancient_automaton, tag=recipe_set, distance=..10] at @s run function ancient_technology:ancient_automaton/check_blockers

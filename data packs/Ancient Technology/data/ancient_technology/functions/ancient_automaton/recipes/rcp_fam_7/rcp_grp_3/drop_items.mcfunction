@@ -1,0 +1,14 @@
+execute as @s at @s if entity @s[tag=rcp_31] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:birch_pressure_plate", Count: 1b}}
+execute as @s at @s if entity @s[tag=rcp_75] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:cartography_table", Count: 1b}}
+execute as @s at @s if entity @s[tag=rcp_119] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:cut_copper_slab", Count: 6b}}
+execute as @s at @s if entity @s[tag=rcp_163] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:diamond_pickaxe", Count: 1b}}
+execute as @s at @s if entity @s[tag=rcp_207] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:golden_boots", Count: 1b}}
+execute as @s at @s if entity @s[tag=rcp_251] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:iron_trapdoor", Count: 1b}}
+execute as @s at @s if entity @s[tag=rcp_295] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:lime_concrete_powder", Count: 8b}}
+execute as @s at @s if entity @s[tag=rcp_339] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:oak_wood", Count: 3b}}
+execute as @s at @s if entity @s[tag=rcp_383] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:powered_rail", Count: 6b}}
+execute as @s at @s if entity @s[tag=rcp_427] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:redstone", Count: 9b}}
+execute as @s at @s if entity @s[tag=rcp_471] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:spyglass", Count: 1b}}
+execute as @s at @s if entity @s[tag=rcp_515] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:waxed_cut_copper", Count: 4b}}
+execute as @s at @s if entity @s[tag=rcp_559] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:firework_rocket", tag:{Fireworks:{Flight:2}}, Count: 3b}}
+execute as @s at @s if entity @s[tag=rcp_603] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:magenta_carpet", Count: 3b}}

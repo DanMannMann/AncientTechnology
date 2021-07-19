@@ -1,0 +1,11 @@
+execute as @s at @s if entity @s[tag=rcp_fam_0] run function ancient_technology:ancient_automaton/recipes/rcp_fam_0/check_crafts
+execute as @s at @s if entity @s[tag=rcp_fam_1] run function ancient_technology:ancient_automaton/recipes/rcp_fam_1/check_crafts
+execute as @s at @s if entity @s[tag=rcp_fam_2] run function ancient_technology:ancient_automaton/recipes/rcp_fam_2/check_crafts
+execute as @s at @s if entity @s[tag=rcp_fam_3] run function ancient_technology:ancient_automaton/recipes/rcp_fam_3/check_crafts
+execute as @s at @s if entity @s[tag=rcp_fam_4] run function ancient_technology:ancient_automaton/recipes/rcp_fam_4/check_crafts
+execute as @s at @s if entity @s[tag=rcp_fam_5] run function ancient_technology:ancient_automaton/recipes/rcp_fam_5/check_crafts
+execute as @s at @s if entity @s[tag=rcp_fam_6] run function ancient_technology:ancient_automaton/recipes/rcp_fam_6/check_crafts
+execute as @s at @s if entity @s[tag=rcp_fam_7] run function ancient_technology:ancient_automaton/recipes/rcp_fam_7/check_crafts
+execute as @s at @s if entity @s[tag=rcp_fam_8] run function ancient_technology:ancient_automaton/recipes/rcp_fam_8/check_crafts
+execute as @s at @s if entity @s[tag=rcp_fam_9] run function ancient_technology:ancient_automaton/recipes/rcp_fam_9/check_crafts
+execute as @s at @s if entity @s[tag=rcp_fam_10] run function ancient_technology:ancient_automaton/recipes/rcp_fam_10/check_crafts

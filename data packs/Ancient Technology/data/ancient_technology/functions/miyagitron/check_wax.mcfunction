@@ -1,0 +1,4 @@
+execute as @s at @s if entity @s[tag=miyagi_north] if block ~ ~ ~-1 minecraft:barrel{Items:[{id:"minecraft:honeycomb"}]} run function ancient_technology:miyagitron/check_item
+execute as @s at @s if entity @s[tag=miyagi_east] if block ~1 ~ ~ minecraft:barrel{Items:[{id:"minecraft:honeycomb"}]} run function ancient_technology:miyagitron/check_item
+execute as @s at @s if entity @s[tag=miyagi_south] if block ~ ~ ~1 minecraft:barrel{Items:[{id:"minecraft:honeycomb"}]} run function ancient_technology:miyagitron/check_item
+execute as @s at @s if entity @s[tag=miyagi_west] if block ~-1 ~ ~ minecraft:barrel{Items:[{id:"minecraft:honeycomb"}]} run function ancient_technology:miyagitron/check_item

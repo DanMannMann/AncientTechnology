@@ -1,0 +1,14 @@
+execute as @s at @s if entity @s[tag=rcp_41] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:black_terracotta", Count: 8b}}
+execute as @s at @s if entity @s[tag=rcp_85] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:chiseled_sandstone", Count: 1b}}
+execute as @s at @s if entity @s[tag=rcp_129] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:cyan_terracotta", Count: 8b}}
+execute as @s at @s if entity @s[tag=rcp_173] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:dripstone_block", Count: 1b}}
+execute as @s at @s if entity @s[tag=rcp_217] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:granite_slab", Count: 6b}}
+execute as @s at @s if entity @s[tag=rcp_261] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:jungle_pressure_plate", Count: 1b}}
+execute as @s at @s if entity @s[tag=rcp_305] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:magma_block", Count: 1b}}
+execute as @s at @s if entity @s[tag=rcp_349] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:oxidized_cut_copper_stairs", Count: 4b}}
+execute as @s at @s if entity @s[tag=rcp_393] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:purple_banner", Count: 1b}}
+execute as @s at @s if entity @s[tag=rcp_437] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:scaffolding", Count: 6b}}
+execute as @s at @s if entity @s[tag=rcp_481] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:stone_pressure_plate", Count: 1b}}
+execute as @s at @s if entity @s[tag=rcp_525] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:waxed_weathered_cut_copper_slab", Count: 6b}}
+execute as @s at @s if entity @s[tag=rcp_569] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:bone_meal", Count: 3b}}
+execute as @s at @s if entity @s[tag=rcp_613] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:orange_stained_glass_pane", Count: 16b}}

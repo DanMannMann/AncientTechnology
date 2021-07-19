@@ -1,0 +1,2 @@
+execute as @e[type=minecraft:glow_item_frame, tag=ancient_automaton, tag=installed_chroma] at @s run function ancient_technology:chromatron/set_blockers
+execute as @e[type=minecraft:glow_item_frame, tag=chromatron] at @s run function ancient_technology:chromatron/set_blockers

@@ -1,0 +1,15 @@
+execute as @s at @s if entity @s[tag=rcp_25] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:birch_boat", Count: 1b}}
+execute as @s at @s if entity @s[tag=rcp_69] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:brown_terracotta", Count: 8b}}
+execute as @s at @s if entity @s[tag=rcp_113] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:crimson_sign", Count: 3b}}
+execute as @s at @s if entity @s[tag=rcp_157] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:diamond_block", Count: 1b}}
+execute as @s at @s if entity @s[tag=rcp_201] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:glow_item_frame", Count: 1b}}
+execute as @s at @s if entity @s[tag=rcp_245] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:iron_hoe", Count: 1b}}
+execute as @s at @s if entity @s[tag=rcp_289] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:light_gray_stained_glass", Count: 8b}}
+execute as @s at @s if entity @s[tag=rcp_333] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:oak_planks", Count: 4b}}
+execute as @s at @s if entity @s[tag=rcp_377] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:polished_diorite", Count: 4b}}
+execute as @s at @s if entity @s[tag=rcp_421] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:red_sandstone", Count: 1b}}
+execute as @s at @s if entity @s[tag=rcp_465] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:spruce_pressure_plate", Count: 1b}}
+execute as @s at @s if entity @s[tag=rcp_509] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:warped_planks", Count: 4b}}
+execute as @s at @s if entity @s[tag=rcp_553] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:mossy_cobblestone", Count: 1b}}
+execute as @s at @s if entity @s[tag=rcp_597] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:light_gray_stained_glass_pane", Count: 16b}}
+execute as @s at @s if entity @s[tag=rcp_641] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:yellow_stained_glass_pane", Count: 8b}}

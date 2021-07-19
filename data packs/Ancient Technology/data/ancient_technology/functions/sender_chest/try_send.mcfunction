@@ -1,0 +1,9 @@
+# this function runs AS the target (sender in this case) but AT the source (receiver in this case)
+
+# make sure the receiver is empty except the key - stay AT the receiver
+scoreboard players set @s sender_empty 0
+execute unless data block ~ ~ ~ Items[{Slot:0b}] unless data block ~ ~ ~ Items[{Slot:1b}] unless data block ~ ~ ~ Items[{Slot:2b}] unless data block ~ ~ ~ Items[{Slot:3b}] unless data block ~ ~ ~ Items[{Slot:4b}] unless data block ~ ~ ~ Items[{Slot:5b}] unless data block ~ ~ ~ Items[{Slot:6b}] unless data block ~ ~ ~ Items[{Slot:7b}] unless data block ~ ~ ~ Items[{Slot:8b}] unless data block ~ ~ ~ Items[{Slot:9b}] unless data block ~ ~ ~ Items[{Slot:10b}] unless data block ~ ~ ~ Items[{Slot:11b}] unless data block ~ ~ ~ Items[{Slot:12b}] unless data block ~ ~ ~ Items[{Slot:14b}] unless data block ~ ~ ~ Items[{Slot:15b}] unless data block ~ ~ ~ Items[{Slot:16b}] unless data block ~ ~ ~ Items[{Slot:17b}] unless data block ~ ~ ~ Items[{Slot:18b}] unless data block ~ ~ ~ Items[{Slot:19b}] unless data block ~ ~ ~ Items[{Slot:20b}] unless data block ~ ~ ~ Items[{Slot:21b}] unless data block ~ ~ ~ Items[{Slot:22b}] unless data block ~ ~ ~ Items[{Slot:23b}] unless data block ~ ~ ~ Items[{Slot:24b}] unless data block ~ ~ ~ Items[{Slot:25b}] unless data block ~ ~ ~ Items[{Slot:26b}] run scoreboard players set @s sender_empty 1
+
+# uses the global var AncientTechnology items_sent so all try_receive calls can see it
+# execute this AS the target and AT the source
+execute if score @s sender_empty matches 1 if score AncientTechnology items_sent matches 0 run function ancient_technology:sender_chest/send_check_key_values 

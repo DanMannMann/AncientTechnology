@@ -1,0 +1,14 @@
+execute as @s at @s if entity @s[tag=rcp_33] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:birch_slab", Count: 6b}}
+execute as @s at @s if entity @s[tag=rcp_77] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:chain", Count: 1b}}
+execute as @s at @s if entity @s[tag=rcp_121] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:cut_red_sandstone", Count: 4b}}
+execute as @s at @s if entity @s[tag=rcp_165] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:diamond_sword", Count: 1b}}
+execute as @s at @s if entity @s[tag=rcp_209] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:golden_chestplate", Count: 1b}}
+execute as @s at @s if entity @s[tag=rcp_253] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:jack_o_lantern", Count: 1b}}
+execute as @s at @s if entity @s[tag=rcp_297] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:lime_terracotta", Count: 8b}}
+execute as @s at @s if entity @s[tag=rcp_341] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:orange_banner", Count: 1b}}
+execute as @s at @s if entity @s[tag=rcp_385] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:prismarine_brick_slab", Count: 6b}}
+execute as @s at @s if entity @s[tag=rcp_429] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:redstone_lamp", Count: 1b}}
+execute as @s at @s if entity @s[tag=rcp_473] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:stone_axe", Count: 1b}}
+execute as @s at @s if entity @s[tag=rcp_517] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:waxed_cut_copper_stairs", Count: 4b}}
+execute as @s at @s if entity @s[tag=rcp_561] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:black_carpet", Count: 3b}}
+execute as @s at @s if entity @s[tag=rcp_605] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:magenta_dye", Count: 1b}}

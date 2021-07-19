@@ -1,0 +1,15 @@
+execute as @s at @s if entity @s[tag=rcp_17] run function ancient_technology:ancient_automaton/recipes/rcp_fam_4/rcp_grp_1/rcp_17
+execute as @s at @s if entity @s[tag=rcp_61] run function ancient_technology:ancient_automaton/recipes/rcp_fam_4/rcp_grp_1/rcp_61
+execute as @s at @s if entity @s[tag=rcp_105] run function ancient_technology:ancient_automaton/recipes/rcp_fam_4/rcp_grp_1/rcp_105
+execute as @s at @s if entity @s[tag=rcp_149] run function ancient_technology:ancient_automaton/recipes/rcp_fam_4/rcp_grp_1/rcp_149
+execute as @s at @s if entity @s[tag=rcp_193] run function ancient_technology:ancient_automaton/recipes/rcp_fam_4/rcp_grp_1/rcp_193
+execute as @s at @s if entity @s[tag=rcp_237] run function ancient_technology:ancient_automaton/recipes/rcp_fam_4/rcp_grp_1/rcp_237
+execute as @s at @s if entity @s[tag=rcp_281] run function ancient_technology:ancient_automaton/recipes/rcp_fam_4/rcp_grp_1/rcp_281
+execute as @s at @s if entity @s[tag=rcp_325] run function ancient_technology:ancient_automaton/recipes/rcp_fam_4/rcp_grp_1/rcp_325
+execute as @s at @s if entity @s[tag=rcp_369] run function ancient_technology:ancient_automaton/recipes/rcp_fam_4/rcp_grp_1/rcp_369
+execute as @s at @s if entity @s[tag=rcp_413] run function ancient_technology:ancient_automaton/recipes/rcp_fam_4/rcp_grp_1/rcp_413
+execute as @s at @s if entity @s[tag=rcp_457] run function ancient_technology:ancient_automaton/recipes/rcp_fam_4/rcp_grp_1/rcp_457
+execute as @s at @s if entity @s[tag=rcp_501] run function ancient_technology:ancient_automaton/recipes/rcp_fam_4/rcp_grp_1/rcp_501
+execute as @s at @s if entity @s[tag=rcp_545] run function ancient_technology:ancient_automaton/recipes/rcp_fam_4/rcp_grp_1/rcp_545
+execute as @s at @s if entity @s[tag=rcp_589] run function ancient_technology:ancient_automaton/recipes/rcp_fam_4/rcp_grp_1/rcp_589
+execute as @s at @s if entity @s[tag=rcp_633] run function ancient_technology:ancient_automaton/recipes/rcp_fam_4/rcp_grp_1/rcp_633

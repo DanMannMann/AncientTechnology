@@ -1,0 +1,15 @@
+execute as @s at @s if entity @s[tag=rcp_12] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:activator_rail", Count: 6b}}
+execute as @s at @s if entity @s[tag=rcp_56] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:bow", Count: 1b}}
+execute as @s at @s if entity @s[tag=rcp_100] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:composter", Count: 1b}}
+execute as @s at @s if entity @s[tag=rcp_144] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:dark_prismarine_stairs", Count: 4b}}
+execute as @s at @s if entity @s[tag=rcp_188] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:exposed_cut_copper_stairs", Count: 4b}}
+execute as @s at @s if entity @s[tag=rcp_232] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:heavy_weighted_pressure_plate", Count: 1b}}
+execute as @s at @s if entity @s[tag=rcp_276] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:leather_horse_armor", Count: 1b}}
+execute as @s at @s if entity @s[tag=rcp_320] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:nether_brick_fence", Count: 6b}}
+execute as @s at @s if entity @s[tag=rcp_364] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:polished_blackstone_brick_slab", Count: 6b}}
+execute as @s at @s if entity @s[tag=rcp_408] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:raw_copper", Count: 9b}}
+execute as @s at @s if entity @s[tag=rcp_452] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:smooth_stone_slab", Count: 6b}}
+execute as @s at @s if entity @s[tag=rcp_496] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:tinted_glass", Count: 2b}}
+execute as @s at @s if entity @s[tag=rcp_540] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:wooden_pickaxe", Count: 1b}}
+execute as @s at @s if entity @s[tag=rcp_584] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:gray_stained_glass_pane", Count: 8b}}
+execute as @s at @s if entity @s[tag=rcp_628] run summon item ~ ~-0.5 ~ {Item:{id:"minecraft:red_stained_glass_pane", Count: 16b}}
