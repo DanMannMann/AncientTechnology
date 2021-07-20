@@ -11,7 +11,7 @@ One thing the Ancient Forge can't do is craft automatically. For that you need..
 The Ancient Automaton is the original idea that started me on this data pack project. It's a block which must be placed in a specific configuration - similar to how the parts of a golem must be placed in the right pattern - to create one of 3 different crafting automation systems.
 
 ### [The Sender Chest & Eyes of Origin/Destination](docs/sender.md)
-The Sender Chest is a cool - but maybe _slightly_ over-powered - block that can be used to send items over any distance instantly (with costs and caveats attached!). The fuel for a sending items between a pair of Sender Chests is a pair of items called Eye of Origin and Eye of Destination. They're forged in pairs (or equal-sized stacks of pairs), where each craft gets a unique "key number". When an origin eye and destination eye are each inserted into a different Sender Chest at the same time, the items in the origin are sent to the destination, and the eyes are consumed.
+The Sender Chest is a cool - but maybe _slightly_ over-powered - block that can be used to send items over any distance instantly (with costs and caveats attached!). The fuel for a sending items between a pair of Sender Chests is a pair of items called Eye of Origin and Eye of Destination. They're forged in pairs (or equal-sized stacks of pairs), where each craft gets a unique "key number". When an origin eye and destination eye with matching key numbers are each inserted into a different Sender Chest at the same time, the items in the origin are sent to the destination and the eyes are consumed.
 
 ### The Ancient Anthology
 A set of 6 written books providing in-game documentation for all the features of Ancient Technology.
