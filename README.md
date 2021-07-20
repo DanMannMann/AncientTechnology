@@ -17,6 +17,11 @@ The Sender Chest is a cool - but maybe _slightly_ over-powered - block that can 
 A set of 6 written books providing in-game documentation for all the features of Ancient Technology.
 
 
+### Roadmap and state of play
+I'd say the currently added features are pretty much 100% code complete and seem totally stable/reasonably performant. There'll be bugs to fix, no doubt, but the next thing I add (if anything) will probably be another new block type.
+
+That's as far as code is concerned. As for art... Ugh. I suck at it. All the block textures are kinda frankensteined together from vanilla textures. If anybody wants to help out with some sexier textures I'm so totally up for that so much that it hurts my face.
+
 ### Acknowledgements
 There's no way I could've thrown this together in 3 weeks if I hadn't ~~ripped some people off~~ stood on the shoulders of the Minecraft command community's giants.
 
