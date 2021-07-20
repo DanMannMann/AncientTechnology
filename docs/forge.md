@@ -16,11 +16,11 @@ As in the recipe below for the eyes of origin/destination, an "eventTag" can be 
 
 This tag is added to the Ancient Forge glow_item_frame entity whenever this recipe is _previewed_ (i.e. when the items are added to the result slot, _before_ the player takes them). This tag can be used with a command such as the one below, in any script that runs via the tick tag, to run a function whenever the custom items are being created.
 
-> `execute as @e[type=minecraft:glow_item_frame,tag=ancient_forge,tag=sender_eye_crafted] at @s run function ancient_technology:sender_chest/complete_craft`
+> `execute as @e[type=minecraft:glow_item_frame,tag=ancient_forge,tag=your_tag] at @s run function your_namespace:your_folder/your_function`
 
-The script called by this command should include a line to remove the tag, like `tag @s remove sender_eye_crafted`.
+The function called by this command should include a line to remove the tag, like `tag @s remove your_tag`.
 
-Note that since the tag is added when the items are previewed, the craft is not always "completed" after this tag is added. Therefore this tag shouldn't be used to keep track of or respond to players actually receiving/crafting items, only to provide additional logic to the creation of items which _might_ be crafted. The file [complete_craft.mcfunction]("data%20packs/Ancient%20Technology/data/ancient_technology/functions/sender_chest/complete_craft.mcfunction") provides an example of using this tag to replace placeholder result items with loot table generated results, which include scoreboard scores inserted into lore values and other advanced features only available via loot tables.
+Note that since the tag is added when the items are previewed, the craft is not always "completed" after this tag is added. Therefore this tag shouldn't be used to keep track of or respond to players actually receiving/crafting items, only to provide additional logic to the creation of items which _might_ be crafted. The file [complete_craft.mcfunction](data%20packs/Ancient%20Technology/data/ancient_technology/functions/sender_chest/complete_craft.mcfunction) provides an example of using this tag to replace placeholder result items with loot table generated results, which include scoreboard scores inserted into lore values and other advanced features only available via loot tables.
 
 ### Tech Notes
 The ancient forge item overrides the default texture & name (via localisation override) of the Knowledge Book. This is to allow the Ancient Forge to appear as if it's a "real" block in the vanilla crafting table. This obviously messes with any other pack that relies on the knowledge book as an item crafting trigger. If there's a need to use a conflicting pack together with this one, perhaps the pack author or server admin could consider migrating the other pack's recipes to the Ancient Forge, as described above. ;)
