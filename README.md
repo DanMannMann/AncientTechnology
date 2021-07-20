@@ -1,6 +1,6 @@
 ## Ancient Technology
 
-Ancient Technology is a data pack for vanilla Minecraft (1.17+) which adds blocks and items mostly aimed at technical players/redstoners, and which (I hope) are quite balanced and in the spirit of vanilla survival gameplay.
+Ancient Technology is a data pack for vanilla Minecraft (1.17+) which adds blocks and items mostly aimed at technical players/redstoners, and which (I hope) are quite balanced and in the spirit of vanilla survival gameplay. It should also have reasonable performance, at least in as far as complex data packs can.
 
 ### [The Ancient Forge](docs/forge.md)
 A custom crafting table, the Ancient Forge, is the entry point for Ancient Technology's items. It can be used to craft - or, rather, forge - other custom items and blocks included in the pack. The Ancient Forge is data driven, which means other data pack authors can add their recipes to it with a simple `data modify` command. 
@@ -26,4 +26,4 @@ That's as far as code is concerned. As for art... Ugh. I suck at it. All the blo
 There's no way I could've thrown this together in 3 weeks if I hadn't ~~ripped some people off~~ stood on the shoulders of the Minecraft command community's giants.
 
 - Timber Forge on youtube - I learned this whole way of doing custom blocks from his vids, they're indispensible. https://www.youtube.com/channel/UC606Jh3yjNj40dcVuMwtUCw
-- radiish/TheSethskiGamer - the person who developed the "ilmango's crafting tables" autocrafting data pack. I learned how to make custom GUIs from that pack. My GUIs would suck without that knowledge. I also realise this pack is kinda doing the same thing theirs does (and they were here first!), but the differences between their timing/order based approach and my 3x3/fun-with-minecarts approach are big enough that I don't think any toes are stepped on. Theirs is a great pack and you should play with it! https://github.com/istanbul-not-constantinople/minecraft-autocrafting-datapack
+- radiish/TheSethskiGamer - the person who developed the "ilmango's crafting tables" autocrafting data pack. I learned how to make custom GUIs from that pack. My GUIs would suck without that knowledge. I also realise this pack is kinda doing the same thing theirs does (and they were here first!), but the differences between their timing/order based approach and my 3x3/fun-with-minecarts approach are big enough that I don't think any toes are stepped on. Theirs is a great pack and you should play with it! https://github.com/istanbul-not-constantinople/minecraft-autocrafting-datapack fwiw I didn't re-use (or even really look at) any of that pack's crafting code - it works in a very different way to this pack, obviously.
