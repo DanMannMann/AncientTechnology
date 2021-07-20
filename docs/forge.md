@@ -12,7 +12,7 @@ As long as other data packs run their `data modify` commands _after_ Ancient Tec
 #### Crafting "Events"
 As in the recipe below for the eyes of origin/destination, an "eventTag" can be specified for a recipe.
 
-> `data modify storage ancient_technology:forge data.recipes append value {**eventTag:"sender_eye_crafted"**, slot2:{id:"minecraft:ender_eye"},slot3:{id:"minecraft:redstone"},slot1:{id:"minecraft:redstone"},slot7:{id:"minecraft:lapis_lazuli"},slot8:{id:"minecraft:ender_eye"},slot9:{id:"minecraft:lapis_lazuli"},result1:{id:"minecraft:stick", Count: 1b, tag: {CustomModelData:90083,display:{Name:"{\"text\":\"Eye of Origin\"}"}}},result3:{id:"minecraft:stick", Count: 1b, tag:{CustomModelData:90084, display:{Name:"{\"text\":\"Eye of Destination\"}"}}}}`
+> `data modify storage ancient_technology:forge data.recipes append value {eventTag:"sender_eye_crafted", slot2:{id:"minecraft:ender_eye"},slot3:{id:"minecraft:redstone"},slot1:{id:"minecraft:redstone"},slot7:{id:"minecraft:lapis_lazuli"},slot8:{id:"minecraft:ender_eye"},slot9:{id:"minecraft:lapis_lazuli"},result1:{id:"minecraft:stick", Count: 1b, tag: {CustomModelData:90083,display:{Name:"{\"text\":\"Eye of Origin\"}"}}},result3:{id:"minecraft:stick", Count: 1b, tag:{CustomModelData:90084, display:{Name:"{\"text\":\"Eye of Destination\"}"}}}}`
 
 This tag is added to the Ancient Forge glow_item_frame entity whenever this recipe is _previewed_ (i.e. when the items are added to the result slot, _before_ the player takes them). This tag can be used with a command such as the one below, in any script that runs via the tick tag, to run a function whenever the custom items are being created.
 
