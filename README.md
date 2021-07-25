@@ -2,6 +2,8 @@
 
 Ancient Technology is a data pack for vanilla Minecraft (1.17+) which adds blocks and items mostly aimed at technical players/redstoners, and which (I hope) are quite balanced and in the spirit of vanilla survival gameplay. It should also have reasonable performance, at least in as far as complex data packs can.
 
+[demo video (youtube)](https://www.youtube.com/watch?v=QAfEJk2XjuU)
+
 ### [The Ancient Forge](docs/forge.md)
 A custom crafting table, the Ancient Forge, is the entry point for Ancient Technology's items. It can be used to craft - or, rather, forge - other custom items and blocks included in the pack. The Ancient Forge is data driven, which means other data pack authors can add their recipes to it with a simple `data modify` command. 
 
