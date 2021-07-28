@@ -9,3 +9,5 @@ function ancient_technology:chromatron/tick_craft
 function ancient_technology:sender_chest/tick_craft
 
 function ancient_technology:ancient_forge/tick_craft
+
+function ancient_technology:redstone_portal/tick_craft

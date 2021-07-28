@@ -1,0 +1,3 @@
+execute as @e[type=minecraft:glow_item_frame,tag=redstone_destination,tag=placed,tag=powered] at @s if block ~ ~ ~ stone_pressure_plate run tag @s remove powered
+execute as @e[type=minecraft:glow_item_frame,tag=redstone_source,tag=placed] at @s if block ~ ~ ~ redstone_wire run function ancient_technology:redstone_portal/tick_source
+execute as @e[type=minecraft:glow_item_frame,tag=redstone_destination,tag=placed] at @s if block ~ ~ ~ stone_pressure_plate run function ancient_technology:redstone_portal/tick_destination

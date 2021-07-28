@@ -13,7 +13,13 @@
   { "predicate": {"custom_model_data": 80089}, "model": "item/chromatron"},
   { "predicate": {"custom_model_data": 80090}, "model": "item/sender_chest"},
   { "predicate": {"custom_model_data": 80091}, "model": "item/sender_chest_open"},
-  { "predicate": {"custom_model_data": 80095}, "model": "item/ancient_anthology"}
+  { "predicate": {"custom_model_data": 80095}, "model": "item/ancient_anthology"},
+  { "predicate": {"custom_model_data": 90009}, "model": "item/redstone_portal_destination_off"},
+  { "predicate": {"custom_model_data": 90010}, "model": "item/redstone_portal_destination_off"},
+  { "predicate": {"custom_model_data": 90011}, "model": "item/redstone_portal_destination_on"},
+  { "predicate": {"custom_model_data": 90014}, "model": "item/redstone_portal_source_off"},
+  { "predicate": {"custom_model_data": 90015}, "model": "item/redstone_portal_source_off"},
+  { "predicate": {"custom_model_data": 90016}, "model": "item/redstone_portal_source_on"}
 
  ]
 }

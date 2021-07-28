@@ -11,6 +11,8 @@ function ancient_technology:sender_chest/tick
 
 function ancient_technology:ancient_anthology/tick
 
+function ancient_technology:redstone_portal/tick
+
 # take stolen blockers off players
 clear @a #ancient_technology:all{tag:{GuiComponent: 1b}}
 

@@ -1,0 +1,12 @@
+{
+ "parent": "item/generated",
+ "textures": {
+  "layer0": "item/oak_boat"
+ },
+
+ "overrides": [
+  { "predicate": {"custom_model_data": 90010}, "model": "item/redstone_portal_destination_off"},
+  { "predicate": {"custom_model_data": 90015}, "model": "item/redstone_portal_source_off"}
+
+ ]
+}

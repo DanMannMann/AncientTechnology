@@ -1,0 +1,3 @@
+give @s glow_item_frame{display:{Name:'{"text":"Redstone Destination Portal"}'},CustomModelData:90010,EntityTag:{Silent:1b,Tags:["redstone_destination"],Item:{id:"minecraft:glow_item_frame",Count:1b,tag:{CustomModelData:90010,rx_key:0b}},Invulnerable:1b,Invisible:1b,Fixed:1b}} 1
+
+give @s glow_item_frame{display:{Name:'{"text":"Redstone Source Portal"}'},CustomModelData:90015,EntityTag:{Silent:1b,Tags:["redstone_source"],Item:{id:"minecraft:glow_item_frame",Count:1b,tag:{CustomModelData:90015,tx_key:0b}},Invulnerable:1b,Invisible:1b,Fixed:1b}} 1
