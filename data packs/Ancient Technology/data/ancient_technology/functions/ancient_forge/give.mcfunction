@@ -1,0 +1,1 @@
+give @s minecraft:glow_item_frame{display:{Name:'{"text":"Ancient Forge"}'},CustomModelData:80080,EntityTag:{Silent:1b,Tags:["ancient_forge"],Item:{id:"minecraft:glow_item_frame",Count:1b,tag:{CustomModelData:80080}},Invulnerable:1b,Invisible:1b,Fixed:1b}}

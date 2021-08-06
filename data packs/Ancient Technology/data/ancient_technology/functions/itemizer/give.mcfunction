@@ -1,0 +1,1 @@
+give @s glow_item_frame{display:{Name:'{"text":"Itemizer"}'},CustomModelData:95001,EntityTag:{Silent:1b,Tags:["itemizer"],Invulnerable:1b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:glow_item_frame",Count:1b,tag:{CustomModelData:95000,SelectedItem:{id:"minecraft:glow_item_frame",tag:{CustomModelData:95002},Count:1b}}}}} 1
