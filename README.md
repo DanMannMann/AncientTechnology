@@ -16,6 +16,15 @@ The Ancient Automaton is the original idea that started me on this data pack pro
 ### [The Sender Chest & Eyes of Origin/Destination](docs/sender.md)
 The Sender Chest is a cool - but maybe _slightly_ over-powered - block that can be used to send items over any distance instantly (with costs and caveats attached!)
 
+### Redstone Portals
+The redstone portals can be used to transmit a wireless redstone signal. They are crafted in pairs or stacks of matched pairs, and different matched sets don't interfere with each other so you can have multiple wireless circuits in the same area.
+
+### The Itemizer
+The Itemizer is like a comparator, except it only counts/detects the presence of a player-specified type of item. This is very useful for building unstackable item sorters.
+
+### The Soul Plate
+The Soul Plate is a pressure plate which only detects the presence of players. This is useful for protecting entrances from mobs and animals wandering in.
+
 ### The Ancient Anthology
 A set of 6 written books providing in-game documentation for all the features of Ancient Technology.
 
