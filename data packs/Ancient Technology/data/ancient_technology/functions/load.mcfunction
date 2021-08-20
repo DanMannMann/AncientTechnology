@@ -79,6 +79,10 @@ scoreboard objectives add itemizer_multi dummy
 scoreboard objectives add itemizer_out dummy
 scoreboard objectives add itemizer_switch dummy
 
+scoreboard objectives add soulp_powered dummy
+scoreboard objectives add soulp_count dummy
+
+
 
 data modify storage ancient_technology:forge data set value {recipes:[{slot1:{id:"minecraft:iron_ingot"},slot2:{id:"minecraft:iron_ingot"},slot3:{id:"minecraft:iron_ingot"},slot4:{id:"minecraft:book"},slot5:{id:"minecraft:book"},slot6:{id:"minecraft:book"},slot7:{id:"minecraft:book"},slot8:{id:"minecraft:book"},slot9:{id:"minecraft:book"},result1:{id:"minecraft:glow_item_frame", Count: 1b, tag:{CustomModelData:80095,display:{Name:"{\"text\":\"Ancient Anthology\"}", Lore: ["{\"text\":\"Instructional tomes on ancient technology\"}"]},EntityTag:{Silent:1b,Tags:["ancient_anthology","anthology_full"],Item:{id:"minecraft:glow_item_frame",Count:1b,tag:{CustomModelData:80095}},Invulnerable:1b,Invisible:1b,Fixed:1b}}}}]}
 
@@ -91,3 +95,5 @@ data modify storage ancient_technology:forge data.recipes append value {eventTag
 data modify storage ancient_technology:forge data.recipes append value {eventTag:"rsp_crafted", slot1:{id:"minecraft:redstone"},slot2:{id:"minecraft:ender_eye"},slot3:{id:"minecraft:redstone"},slot4:{id:"minecraft:light_weighted_pressure_plate"},slot5:{id:"minecraft:redstone_block"},slot6:{id:"minecraft:light_weighted_pressure_plate"},slot7:{id:"minecraft:lapis_lazuli"},slot8:{id:"minecraft:ender_eye"},slot9:{id:"minecraft:lapis_lazuli"},result1:{id:"minecraft:glow_item_frame", Count: 1b, tag: {CustomModelData:90014,display:{Name:"{\"text\":\"Redstone Portal - Origin\"}"}}},result3:{id:"minecraft:stick", Count: 1b, tag:{CustomModelData:90009, display:{Name:"{\"text\":\"Redstone Portal - Destination\"}"}}}}
 
 data modify storage ancient_technology:forge data.recipes append value {slot2:{id:"minecraft:item_frame"},slot4:{id:"minecraft:lapis_lazuli"},slot5:{id:"minecraft:comparator"},slot6:{id:"minecraft:lapis_lazuli"},slot8:{id:"minecraft:heavy_weighted_pressure_plate"},result1:{id:"minecraft:glow_item_frame", Count: 1b, tag: {display:{Name:'{"text":"Itemizer"}'},CustomModelData:95001,EntityTag:{Silent:1b,Tags:["itemizer"],Invulnerable:1b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:glow_item_frame",Count:1b,tag:{CustomModelData:95000,SelectedItem:{id:"minecraft:glow_item_frame",tag:{CustomModelData:95002},Count:1b}}}}}}}
+
+data modify storage ancient_technology:forge data.recipes append value {slot2:{id:"minecraft:coal"},slot4:{id:"minecraft:soul_sand"},slot5:{id:"minecraft:soul_sand"},slot7:{id:"minecraft:gold_ingot"},slot8:{id:"minecraft:gold_ingot"},result1:{id:"minecraft:glow_item_frame", Count: 1b, tag: {display:{Name:'{"text":"Soul Plate"}'},CustomModelData:96000,EntityTag:{Silent:1b,Tags:["soul_plate"],Invulnerable:1b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:glow_item_frame",Count:1b,tag:{CustomModelData:96000,SelectedItem:{id:"minecraft:glow_item_frame",tag:{CustomModelData:96000},Count:1b}}}}}}}

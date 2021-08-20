@@ -22,7 +22,8 @@
   { "predicate": {"custom_model_data": 90016}, "model": "item/redstone_portal_source_on"},
   { "predicate": {"custom_model_data": 95000}, "model": "item/itemizer"},
   { "predicate": {"custom_model_data": 95001}, "model": "item/itemizer_on"},
-  { "predicate": {"custom_model_data": 95002}, "model": "item/itemizer_placeholder"}
-
+  { "predicate": {"custom_model_data": 95002}, "model": "item/itemizer_placeholder"},
+  { "predicate": {"custom_model_data": 96000}, "model": "item/soul_plate"},
+  { "predicate": {"custom_model_data": 96001}, "model": "item/soul_plate_on"}
  ]
 }
